@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Desafio FSDT</title>
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <h1 class="h1 archivo">POSTECH - FULLSTACK</h1>
+                <h3 class="h3">Desafio aula inaugural</h3>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="form">
+                <form name="contact_form" method="post" onsubmit="postData(event)" id="form">
+                    <div class="form-header">
+                        <h2 class="h2">Informações do grupo</h2>
+                        <hr>
+                    </div>
+
+                    <div class="form-body">
+                        <label class="form-label" for="nome01">Nome</label>
+                        <input class="form-control" type="text" name="nome01" id="nome01">
+
+                        <label class="form-label" for="nome02">Nome</label>
+                        <input class="form-control" type="text" name="nome02" id="nome02">
+
+                        <label class="form-label" for="nome03">Nome</label>
+                        <input class="form-control" type="text" name="nome03" id="nome03">
+
+                        <label class="form-label" for="nome04">Nome</label>
+                        <input class="form-control" type="text" name="nome04" id="nome04">
+
+                        <label class="form-label" for="nome05">Nome</label>
+                        <input class="form-control" type="text" name="nome05" id="nome05">
+
+                        <label class="form-label" for="historio-grupo">História do grupo</label>
+                        <textarea class="form-control" name="historio-grupo" id="historio-grupo" rows="5"></textarea>
+                    </div>
+
+                    <div class="form-footer">
+                        <button type="submit" class="btn btn-warning">Enviar</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
